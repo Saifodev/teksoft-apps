@@ -54,12 +54,14 @@ Feche o navegador e o TekPrint. Instale a nova versão disponível em **Releases
 
 Se a actualização indicar alterações à extensão, gere-a novamente e recarregue-a no navegador.
 
-
-Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "192.168.100.148  teksoft.lan"
-ipconfig /flushdns
-
 ## Se não conseguir imprimir
 
 Confirme que o TekPrint está aberto, a extensão está activa e a impressora tem papel e está ligada. Se necessário, utilize **Reparar integração local**, no separador **Extensão**.
 
 Se persistir, contacte o suporte e indique a mensagem de erro e o modelo da impressora.
+
+
+
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "192.168.100.148  teksoft.lan"
+
+ipconfig /flushdns
